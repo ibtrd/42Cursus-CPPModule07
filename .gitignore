@@ -31,5 +31,6 @@
 *.out
 *.app
 ex00/template
+ex01/iter
 
 */.vscode
