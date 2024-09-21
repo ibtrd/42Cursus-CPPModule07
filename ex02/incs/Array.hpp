@@ -6,7 +6,7 @@
 /*   By: ibertran <ibertran@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/20 10:27:50 by ibertran          #+#    #+#             */
-/*   Updated: 2024/09/21 14:05:04 by ibertran         ###   ########lyon.fr   */
+/*   Updated: 2024/09/21 17:16:22 by ibertran         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,9 +25,7 @@ class Array
 	public:
 		Array(void);
 		Array(const Array &);
-		
 		Array(uint32_t);
-
 		~Array(void);
 
 		Array	&operator=(const Array &);
@@ -35,6 +33,8 @@ class Array
 		const T &operator[](uint32_t index) const;
 
 		uint32_t	size(void) const;
+
+		void		display(void) const;
 };
 
 #include "Array.tpp"
