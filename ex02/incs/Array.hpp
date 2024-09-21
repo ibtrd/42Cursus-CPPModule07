@@ -6,7 +6,7 @@
 /*   By: ibertran <ibertran@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/20 10:27:50 by ibertran          #+#    #+#             */
-/*   Updated: 2024/09/21 17:16:22 by ibertran         ###   ########lyon.fr   */
+/*   Updated: 2024/09/21 21:46:52 by ibertran         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,6 +37,6 @@ class Array
 		void		display(void) const;
 };
 
-#include "Array.tpp"
+# include "Array.tpp"
 
 #endif /* ******************************************************************* */

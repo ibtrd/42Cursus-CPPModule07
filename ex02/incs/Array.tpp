@@ -6,12 +6,15 @@
 /*   By: ibertran <ibertran@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/20 10:27:19 by ibertran          #+#    #+#             */
-/*   Updated: 2024/09/21 21:07:12 by ibertran         ###   ########lyon.fr   */
+/*   Updated: 2024/09/21 21:47:06 by ibertran         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <iostream>
-#include "Array.hpp"
+#ifndef ARRAY_TPP
+# define ARRAY_TPP
+
+# include <iostream>
+# include "Array.hpp"
 
 /* CONSTRUCTORS ************************************************************* */
 
@@ -98,3 +101,5 @@ void		Array<T>::display(void) const {
 	}
 	std::cout << "\n";
 }
+
+#endif
