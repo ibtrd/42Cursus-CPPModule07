@@ -6,7 +6,7 @@
 /*   By: ibertran <ibertran@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/18 22:42:24 by ibertran          #+#    #+#             */
-/*   Updated: 2024/09/25 16:56:02 by ibertran         ###   ########lyon.fr   */
+/*   Updated: 2024/09/29 14:26:02 by ibertran         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,17 @@ T &min(T &a, T &b) {
 }
 
 template <typename T>
+const T &min(const T &a, const T &b) {
+	return (b > a ? a : b);
+}
+
+template <typename T>
 T &max(T &a, T &b) {
+	return (b < a ? a : b);
+}
+
+template <typename T>
+const T &max(const T &a, const T &b) {
 	return (b < a ? a : b);
 }
 
