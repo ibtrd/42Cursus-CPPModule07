@@ -6,12 +6,12 @@
 /*   By: ibertran <ibertran@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/18 22:42:24 by ibertran          #+#    #+#             */
-/*   Updated: 2024/09/29 14:28:19 by ibertran         ###   ########lyon.fr   */
+/*   Updated: 2024/09/29 14:35:40 by ibertran         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef WATHEVER_HPP
-# define WATHEVER_HPP
+#ifndef WHATHEVER_HPP
+# define WHATHEVER_HPP
 
 template <typename T>
 void swap(T &a, T &b) {
