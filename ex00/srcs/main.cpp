@@ -6,12 +6,17 @@
 /*   By: ibertran <ibertran@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/18 21:59:17 by ibertran          #+#    #+#             */
-/*   Updated: 2024/09/18 23:07:17 by ibertran         ###   ########lyon.fr   */
+/*   Updated: 2024/09/29 14:26:14 by ibertran         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
 #include "whatever.hpp"
+
+int GetVal(int val)
+{
+	return val;
+}
 
 int main( void ) {
 	std::cout << "Subject tests" << std::endl;
@@ -38,6 +43,8 @@ int main( void ) {
 		std::cout << "a = " << a << ", b = " << b << std::endl;
 		std::cout << "min( a, b ) = " << ::min( a, b ) << std::endl;
 		std::cout << "max( a, b ) = " << ::max( a, b ) << std::endl;
+
+		std::cout << ::max(GetVal(4), GetVal(5)) << std::endl;
 	}
 
 	return 0;
